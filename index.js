@@ -46,10 +46,6 @@ bento.on("messageReactionAdd", (reaction, user) => {
   var reactChar = /^[0-9a-zA-Z]+$/;
   var whitelistChat = reaction.message.channel.name
   var whitelisterUser = reaction.message.guild.member(user.id)
-  
-  console.log(reaction.message.guild.member)
-  console.log(reactmsgArray[0].length)
-  console.log(user.tag)
 
   if (whitelistChat === botconfig.hexIDText) {
     if (whitelisterUser.hasPermission("ADMINISTRATOR")){ 
