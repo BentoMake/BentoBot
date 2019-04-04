@@ -16,7 +16,7 @@ Installation:
 
 3.4 Terminate the CMD
 
-4. Go to https://discordapp.com/developers and create an application and then a bot user. Copy the token.
+4. Go to https://discordapp.com/developers and create an application and then a bot user. Connect the bot to your server with admin perms. Copy the token from the developer app.
 5. Go into the bot files and open token.json and paste the token to     "token": "HERE", save and exit
 6. Open botconfig.json, paste in the right credentials for your SQL host and change the chat names to match your servers chats. (hexIDText is the chat message where your whitelisthelpers will post a HEX ID (15 charaters example 11000010816f54b.  ) and this is where the ones with ADMINISTRATOR perms in discord will react with ✅ to whitelist the HEX ID. whitelistCommandChat is where the ones with ADMINISTRATOR perms can manually input commands to either whitelist or remove whitelist (example !whitelist steam:11000010816f54b 1))
 7. Open your discord server and type \@THERANK where the rank is the rank you want to be able to post in hexIDText. The result will be something like this: <@&543977917865263104> remove <@&> so you get 543977917865263104. 
