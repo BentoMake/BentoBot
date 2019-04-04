@@ -1,2 +1,0 @@
-1. DOWNLOAD BOT
-2. COMMING SOOND :)))))
