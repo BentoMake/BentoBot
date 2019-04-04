@@ -3,7 +3,7 @@ Whitelistbot for FiveM
 
 KEEP IN MIND! This is made with the expectations that you have a user_whitelist table with the column identifier and whitelisted where the data type fo identifier is a VARCHAR and whitelisted is an INT. If you want to change this you will have to find the entries to the SQL in the code and change it. Might publish a walkthrough on it.
 
-Installation:
+#Installation:
 1. Download the bot and save it on the host computer. (recommending on the desktop for convinience)
 2. Download and install node.js from https://nodejs.org/en/
 3. Open a CMD and run the following commands:
