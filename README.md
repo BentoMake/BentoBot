@@ -5,7 +5,7 @@ Installation:
 1. Download the bot and save it on the host computer. (recommending on the desktop for convinience)
 2. Download and install node.js from https://nodejs.org/en/
 3. Open a CMD and run the following commands:
-3.1. cd bot/path  (bot path is the direcory path to where you downloaded the bot. If you saved it on the desktop and named it whitelistbot the bot/path would be: desktop/whitelistbot. The full command would be "cd desktop/whitelistbot" I recommend to set it up like this in the begining as you will be able to move it later.)
+3.1. cd bot/path  (bot path is the directory path to where you downloaded the bot. If you saved it on the desktop and named it whitelistbot the bot/path would be: desktop/whitelistbot. The full command would be "cd desktop/whitelistbot" I recommend to set it up like this in the beginning as you will be able to move it later.)
 3.2. Run the command "npm i discord.js"
 3.3. Run the command "npm i mysql"
 3.4 Terminate the CMD
@@ -17,3 +17,5 @@ Installation:
 9. open startbot and enjoy the bot.
 
 I recommend typing !bentohelp to get information on how to operate the bot.
+
+If it still does not work I might have missed a step or you have not successfully followed them. Pm me @Elias#4318 on discord for support
