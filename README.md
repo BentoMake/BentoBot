@@ -1,6 +1,8 @@
 # BentoBot
 Whitelistbot for FiveM
 
+KEEP IN MIND! This is made with the expectations that you have a user_whitelist table with the column identifier and whitelisted where the data type fo identifier is a VARCHAR and whitelisted is an INT. If you want to change this you will have to find the entries to the SQL in the code and change it. Might publish a walkthrough on it.
+
 Installation:
 1. Download the bot and save it on the host computer. (recommending on the desktop for convinience)
 2. Download and install node.js from https://nodejs.org/en/
@@ -18,8 +20,9 @@ Installation:
 5. Go into the bot files and open token.json and paste the token to     "token": "HERE", save and exit
 6. Open botconfig.json, paste in the right credentials for your SQL host and change the chat names to match your servers chats. (hexIDText is the chat message where your whitelisthelpers will post a HEX ID (15 charaters example 11000010816f54b.  ) and this is where the ones with ADMINISTRATOR perms in discord will react with ✅ to whitelist the HEX ID. whitelistCommandChat is where the ones with ADMINISTRATOR perms can manually input commands to either whitelist or remove whitelist (example !whitelist steam:11000010816f54b 1))
 7. Open your discord server and type \@THERANK where the rank is the rank you want to be able to post in hexIDText. The result will be something like this: <@&543977917865263104> remove <@&> so you get 543977917865263104. 
-8. index.js and go to row 129. there you will need to replace the number inside message.member.roles.has(543977917865263104) to the numbers that you got from step 7
-9. open startbot and enjoy the bot.
+8. index.js and go to row 129. there you will need to replace the number inside message.member.roles.has(543977917865263104) to the numbers that you got from step 7.
+
+10. open startbot and enjoy the bot.
 
 I recommend typing !bentohelp to get information on how to operate the bot.
 
