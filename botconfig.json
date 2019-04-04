@@ -1,0 +1,10 @@
+{
+    "prefix": "!",
+    "hostSQL": "localhost",
+    "userSQL": "root",
+    "passwordSQL": "",
+    "databaseSQL": "essentialmode",
+    "portSQL": "3306",
+    "hexIDText": "📋hex-id",
+    "whitelistCommandChat": "📟whitelistbot"
+}
