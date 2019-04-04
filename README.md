@@ -24,6 +24,7 @@ KEEP IN MIND! This is made with the expectations that you have a user_whitelist 
 7. Open your discord server and type `\@THERANK` where the rank is the rank you want to be able to post in `hexIDText` channel. The result will be something like this: `<@&543977917865263104>` remove `<@&>` so you get `543977917865263104`. 
 8. `index.js` and go to `row 129`. there you will need to replace the number inside 
 > message.member.roles.has(543977917865263104)
+
 to the numbers that you got from step 7.
 
 10. open `startbot.bat` and enjoy the bot.
