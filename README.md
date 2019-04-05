@@ -2,6 +2,7 @@
 Whitelistbot for FiveM. Contact @Elias#4318 for help
 
 KEEP IN MIND! This is made with the expectations that you have a user_whitelist table with the column identifier and whitelisted where the data type fo identifier is a VARCHAR and whitelisted is an INT. If you want to change this you will have to find the entries to the SQL in the code and change it. Might publish a walkthrough on it.
+You will also need to host the bot yourself!
 
 # Installation:
 1. Download the bot and save it on the host computer. (recommending on the desktop for convinience)
