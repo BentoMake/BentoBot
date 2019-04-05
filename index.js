@@ -79,7 +79,7 @@ bento.on("messageReactionAdd", (reaction, user) => {
                     connection.query("INSERT INTO user_whitelist (identifier, whitelisted) VALUES (?, 1)", "steam:" + [reactmsgArray[0]], function (err, result) {
                       if(err) throw err;
                       console.log("Was whitelisted and added " + `<@${user.tag}>`);
-                      user.send("**" + "steam" + reactmsgArray[0] + "**" + " was whitelisted and added!");
+                      user.send("**" + "steam:" + reactmsgArray[0] + "**" + " was whitelisted and added!");
                       connection.release();
                     });
 
