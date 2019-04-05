@@ -1,6 +1,8 @@
 # BentoBot
 Whitelistbot for FiveM. Contact @Elias#4318 for help
 
+This bot will will allow admins on a discord channel to react with ✅ on a HEXID to whitelist them. There is also a dedicated chat for manual commands which will allow you to whitelist or remove a whitelist.
+
 KEEP IN MIND! This is made with the expectations that you have a user_whitelist table with the column identifier and whitelisted where the data type fo identifier is a VARCHAR and whitelisted is an INT. If you want to change this you will have to find the entries to the SQL in the code and change it. Might publish a walkthrough on it.
 You will also need to host the bot yourself!
 
