@@ -1,5 +1,5 @@
 # BentoBot
-Whitelistbot for FiveM. Contact @Elias#4318 on discord for help
+Whitelistbot for FiveM. Contact @Elias#4318 on discord PM for help
 
 This bot will will allow admins on a discord channel to react with ✅ on a HEXID to whitelist them. There is also a dedicated chat for manual commands which will allow you to whitelist or remove a whitelist.
 
