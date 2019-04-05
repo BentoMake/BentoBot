@@ -135,10 +135,26 @@ bento.on("message", async message => {
         message.delete();
       }
     } else {
-      message.member.send("You don't have the right permissions to add HEXID to whitelist queue");
-      message.delete();
-    }
-  }
+      if (message.member.hasPermission("ADMINISTRATOR")){
+		if (messageArray[0].length === 15){
+			if (messageArray[0].match(validChar)){
+				
+			} else {
+				message.member.send("INVALID HEX! Keep in mind to only use the characters: 0-9, a-z, A-Z");
+				message.delete();
+			};
+		} else {
+			message.member.send("INVALID HEX! Either to long or to short it should be 15 characters! Keep in mind to only use the characters: 0-9, a-z, A-Z");
+			message.delete();
+		};
+		  
+	  } else {
+		message.member.send("You don't have the right permissions to add HEXID to whitelist queue");
+		message.delete();
+	  };
+    };
+  };
+
 
   if (messageArray[0] === `${prefix}whitelist`){
     if (message.channel.name === botconfig.whitelistCommandChat){
