@@ -122,7 +122,7 @@ bento.on("message", async message => {
   if (commandfile) commandfile.run(bento,message,args);
 
   if (message.channel.name === botconfig.hexIDText){
-    if (message.member.roles.has("543977917865263104")){
+    if (message.member.roles.has(botconfig.whitelistHelper)){
       if (messageArray[0].length === 15){
         if (messageArray[0].match(validChar)){
 
