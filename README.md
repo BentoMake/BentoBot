@@ -25,10 +25,7 @@ You will also need to host the bot yourself!
 5. Go into the bot files and open `token.json` and paste the token to "token": "HERE", save and exit
 6. Open `botconfig.json`, paste in the right credentials for your SQL host and change the chat names to match your servers chats. (`hexIDText` is the chat message where your whitelisthelpers will post a HEX ID (15 charaters example 11000010816f54b.) and this is where the ones with ADMINISTRATOR perms in discord will react with ✅ to whitelist the HEX ID. `whitelistCommandChat` is where the ones with ADMINISTRATOR perms can manually input commands to either whitelist or remove whitelist (example !whitelist steam:11000010816f54b 1))
 7. Open your discord server and type `\@THERANK` where the rank is the rank you want to be able to post in `hexIDText` channel. The result will be something like this: `<@&543977917865263104>` remove `<@&>` so you get `543977917865263104`. 
-8. `index.js` and go to `row 129`. there you will need to replace the number inside 
-> message.member.roles.has(543977917865263104)
-
-to the numbers that you got from step 7.
+8. Open `bonconfig.json` and change the numbers on whitelistHelper from the old ones to the ones you got from step 7.
 
 10. open `startbot.bat` and enjoy the bot.
 
