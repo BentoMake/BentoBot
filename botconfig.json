@@ -6,5 +6,6 @@
     "databaseSQL": "essentialmode",
     "portSQL": "3306",
     "hexIDText": "📋hex-id",
-    "whitelistCommandChat": "📟whitelistbot"
+    "whitelistCommandChat": "📟whitelistbot",
+    "whitelistHelper": "553602744519491585"
 }
